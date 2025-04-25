@@ -166,6 +166,16 @@ metrics:
     type_params:
       measure: revenue
 
+  - name: cumulative_revenue_mtd
+    description: The month to date cumulative revenue.
+    label: Cumulative Revenue (MTD)
+    type: cumulative
+    type_params:
+      measure: revenue
+      cumulative_type_params:
+        grain_to_date: month
+        period_agg: last
+
 saved_queries:
   - name: revenue_metrics
     query_params:
