@@ -39,3 +39,9 @@ dbt deps
 dbt build
 ```
 
+## dbt docs server
+```bash
+dbt docs generate
+dbt docs serve
+```
+
