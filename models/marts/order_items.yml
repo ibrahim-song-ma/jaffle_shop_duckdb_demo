@@ -176,6 +176,15 @@ metrics:
         grain_to_date: month
         period_agg: last
 
+  - name: cumulative_revenue_l1m
+    description: The last one month date cumulative revenue.
+    label: Cumulative Revenue (L1M)
+    type: cumulative
+    type_params:
+      measure: revenue
+      cumulative_type_params:
+        window: 1 month
+
 saved_queries:
   - name: revenue_metrics
     query_params:
