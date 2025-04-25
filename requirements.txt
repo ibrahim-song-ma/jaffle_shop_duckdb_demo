@@ -218,7 +218,3 @@ wcwidth==0.2.13
     #   tabulate
 zipp==3.17.0
     # via importlib-metadata
-
-
-dbt-utils
-dbt-date
