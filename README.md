@@ -45,3 +45,5 @@ dbt docs generate
 dbt docs serve
 ```
 
+## dbt cloud demo artical link
+[setting up the new dbt semantic layer and testing with dbeaver](https://xebia.com/blog/setting-up-the-new-dbt-semantic-layer-and-testing-with-dbeaver/)
